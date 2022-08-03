@@ -1,28 +1,9 @@
-Header{
-    float: left;
-    background-color: grey;
-    width: 100%;
-    height: 50px;
+header{
+    background-color: lightgrey;
+    height: 20px;
+    
 }
+ #body{
+    background-color:aqua 
+ }
 
-{
-    float: left;
-    background-color: yellow; 
-    width: 60%;
-    height: 200px;
-
-}
-
-
-#news{
-    float: left;
-    background-color: yellow; 
-    width: 80%;
-    height: 200px;
-}
-footer{
-    float: left;
-    background-color: blue;
-    width: 100%;
-    height: 100px;
-}
