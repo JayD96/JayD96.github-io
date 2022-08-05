@@ -1,0 +1,81 @@
+li{
+    display: inline;
+    font-size: larger;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #260101;
+}
+
+#about{
+    background-color: #668C2B;
+    border: 2px solid #260101 ;
+    padding: 10px ;
+    margin: 10px;
+}
+
+span{
+    color: white;
+}
+
+img{
+    float: left;
+    margin-right: 18px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+    #black{
+        background-color: #668C2B;
+        border: 2px solid #260101 ;
+        padding: 10px ;
+        margin: 10px;
+    }
+
+#hx2{
+    background-color: #668C2B;
+    border: 2px solid #260101 ;
+    padding: 10px ;
+    margin: 10px;
+}
+#hx{
+    margin: 20px;
+}
+#current{
+    margin: 20px;
+}
+
+#army{
+    background-color: #668C2B;
+        border: 2px solid #260101 ;
+        padding: 10px ;
+        margin: 10px;
+}
+
+#battle{
+    background-color: #668C2B;
+    border: 2px solid #260101 ;
+    padding: 10px ;
+    margin: 10px;
+}   
+ #style{
+    background-color: #668C2B;
+    border: 2px solid #260101 ;
+    padding: 10px ;
+    margin: 10px;
+ }
+#mems{
+    color: white;
+    margin: 20px;
+}
+#GVF{
+    font-size: x-large;
+}
+
+footer{
+    color: #260101;
+}
