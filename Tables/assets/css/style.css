@@ -1,0 +1,25 @@
+thead{
+    background-color: green;
+    color: #fff;
+    word-spacing: 6px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border: 3px solid green;
+}
+table,
+td {
+    border-bottom: solid green;
+    border-collapse: collapse;
+    font-size: large;
+    padding: 10px;
+    font-family: 'Architects Daughter', cursive;
+}
+#highlight{
+    color: green; background-color: lightgray;
+}
+
+#one{
+padding: 0%
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
