@@ -1,11 +1,15 @@
-h1 {
-    color: blue; 
-    background-color: black;
-    font-size: 72px;
+.favcolor:invalid{
+    border: 2px solid red;
 }
-h2{
-    color: green;
+.favcolor:valid{
+    border: 2px solid greenyellow;
 }
- a{
-    color: blueviolet; text-decoration: none;
- }
+.number:invalid{
+    border: 2px solid red;
+}
+.number:valid{
+    border: 2px solid greenyellow;
+}
+body{
+    background-image: url(../imgs/B54D83F9-F9E2-47A6-A44F-46D3C9C7C787.jpeg);
+}

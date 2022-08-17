@@ -80,9 +80,6 @@ footer{
     color: #260101;
 }
 
-#con{
-    color: blue;
-    }
 
 #nav2{
     float: left;
@@ -97,5 +94,9 @@ footer{
     margin-bottom: 30px;
 }
 
-
+#nav2 ul{
+float: left;
+position: relative;
+left: -50%;
+}
     
