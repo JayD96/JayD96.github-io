@@ -25,6 +25,11 @@ p{
     font-size: 45px;
     margin-bottom: 20px;
     color: #D96E2B;
+    /* background: white;  */
+    text-shadow: 1px 1px 2px black;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: solid lightblue;
 }
 .input,
 .msg .area{
@@ -40,7 +45,7 @@ p{
 }
 .login .input{
     width: 48%;
-    margin-right: 4px;
+    margin-right: 10px;
     float: left;
 }
 .login .input :last-child{
@@ -70,5 +75,16 @@ select{
 }
 label{
     color: #D96E2B;
-    font-size: 20px;
+    font-size: 45px;
+    /* background: white;  */
+    border-radius: 5px; 
+    text-shadow: 1px 1px 2px black;
+    /* border: 2px solid lightblue; */
+    
+}
+.btn:hover{
+    background-color: lightblue;
+}
+.subject{
+    text-align: center;
 }
