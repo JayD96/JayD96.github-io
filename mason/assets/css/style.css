@@ -1,0 +1,11 @@
+body{
+    background-color: yellow;
+}
+.container{
+    padding: 1em;
+    column-count: 2;
+}
+img{
+ width: 100%;
+    margin-bottom: 1em;
+}
