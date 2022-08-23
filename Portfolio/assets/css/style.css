@@ -45,7 +45,7 @@ nav ul li a:hover{
 }
 .btn{
     background-color: #034001;
-    color: #078C03;
+    color: whitesmoke;
     text-decoration: none;
     border: 2px solid transparent;
     padding: 10px 25px;
@@ -102,4 +102,54 @@ h4{
     box-shadow: 0px 0px 5px #034001, 0px 0px 15px whitesmoke;
     top: 6px;
     right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #000;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: #055902;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: #078C03;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.about-text p{
+    color: whitesmoke;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+button{
+    background-color:#078C03;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #078C03;
 }
