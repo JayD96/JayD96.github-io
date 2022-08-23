@@ -8,7 +8,7 @@
     background-attachment: fixed;
     /* margin-bottom: 100px; */
     box-shadow: 10px 5px 5px 
-    #39402F;
+    #e1a177;
     justify-content: center;
     align-items: center;
 }
@@ -16,9 +16,9 @@
     font-family: montserrat;
     font-style: italic;
     color: 
-    #39402F;
+    #e1a177;
     text-align: center;
-    text-shadow: 1px 1px 1px #D7D9D8;
+    text-shadow: 1px 1px 1px #e1a177;
 }
 .hero-text h2{
     font-size: 4.5em;
@@ -32,7 +32,7 @@
     text-shadow: none;
 }
 button{
-    box-shadow: 10px 5px 5px #39402F;
+    box-shadow: 10px 5px 5px #e1a177;
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -40,10 +40,10 @@ button{
     text-align: center;
     color: #39402F;
     border-radius: 5px;
-    background-color: #D7D9D8(220, 0, 0, 1);
+    background-color: #e1a177(220, 0, 0, 1);
 }
 button:hover{
-    background-color: #97A68D;
+    background-color: #e1a177;
 }
 
 .grid{
@@ -55,6 +55,6 @@ button:hover{
 img{
     width: 100%;
     box-shadow: 6px 1px 10px 
-    #39402F;
+    #e1a177;
 
 }

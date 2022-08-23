@@ -11,11 +11,11 @@ body, main, footer, nav, header {
   font-family: Montserrat;
 }
 a {
-  color:#192e55;
+  color:#e1a177;
 }
 .btn {
   background-color: #f8feff;
-  border:2px solid #2e4c83;
+  border:2px solid #e1a177;
   border-radius: 0px;
 }
 
@@ -23,25 +23,25 @@ a {
 
 body {
   margin:0;
-  color:#2e4c83;
-  border-color: #2e4c83;
+  color:#e1a177;
+  border-color: #fff;
 }
 
 header {
-  border-bottom: 2px solid #2e4c83;
+  border-bottom: 2px solid #e1a177;
   display:flex;
   align-items: center;
   justify-content: space-between;
   padding:50px;
-  background-color:#f8feff;
-  color:#2e4c83;
+  background-color:#fff;
+  color:#e1a177;
 }
 .header-top{
   width:15%;
 }
 nav {
-  border-bottom: 2px solid #2e4c83;
-  background-color:#f8feff;
+  border-bottom: 2px solid #e1a177;
+  background-color:#fff;
   position:sticky;
   top:0px;
   box-shadow: 0px 3px 3px 0px rgb(0,0,0,0.3);
@@ -61,7 +61,7 @@ nav li {
   list-style-type: none;
 }
 nav a {
-  color:#192e55;
+  color:#e1a177;
   text-decoration: none;
   padding:5px 20px;
   padding-left:2.5px;
@@ -72,7 +72,7 @@ nav a::before {
   padding-right:5px;
 }
 nav a:hover {
-  background-color: #192e55;
+  background-color: #000;
   color:#f8feff;
 }
 .nav-contact {
@@ -83,7 +83,7 @@ nav a:hover {
   width:33%;
 }
 .nav-contact:hover {
-  color:#192e55;
+  color: #000;
 }
 .nav-contact ion-icon{
   margin-right:10px;
@@ -97,7 +97,7 @@ nav a:hover {
   width:100%;
 }
 .site_title {
-  font-family: "Bebas Neue";
+  font-family: "Montserrat";
   font-size: 4em;
   font-weight: 900;
   margin-bottom:0;
@@ -110,7 +110,7 @@ nav a:hover {
   margin:0px;
 }
 #site_logo:hover,.site_title:hover,.site_quote:hover {
-  color:#192e55;
+  color:#000;
   cursor:pointer;
 }
 
@@ -124,15 +124,15 @@ main {
 
 .content {
   background-color: #f8feff;
-  border:2px solid #2e4c83;
+  border:2px solid #e1a177;
   padding:15px;
-  color:#2e4c83;
+  color:#e1a177;
   box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.3);
   margin:50px 0px;
 }
 .content-header {
   font-size: 42pt;
-  font-family: "Bebas Neue";
+  font-family: "Montserrat";
   margin:0;
   text-align: center;
   padding:25px;
@@ -140,12 +140,12 @@ main {
   font-weight: bold;
 }
 .content-subhead {
-  border-bottom: 1px solid #2e4c83;
+  border-bottom: 1px solid #e1a177;
   margin:0;
   text-align: center;
   margin-bottom:25px;
   padding-bottom:25px;
-  font-family: "Bebas Neue", "Times New Roman", sans-serif;
+  font-family: "Montserrat";
   font-weight: normal;
   font-style: italic;
 }
@@ -158,17 +158,17 @@ main {
 .footer-hat {
   height:30px;
   background-color: #f8feff;
-  border-top:2px solid #2e4c83;
+  border-top:2px solid #e1a177;
 }
 footer {
   background-color: #f8feff;
   padding:25px;
-  border-top:2px dashed #2e4c83;
+  border-top:2px dashed #e1a177;
   box-sizing: border-box;
   display:flex;
 }
 footer h4, footer h5, footer h6 {
-  font-family: "Bebas Neue";
+  font-family: "Montserrat";
   margin:0;
 
 }
@@ -194,7 +194,7 @@ footer h4 {
 .footer-feet {
   background-color: #f8feff;
   height:40px;
-  border-top: 2px dashed #2e4c83;
+  border-top: 2px dashed #e1a177;
 
   display:flex;
   align-items: center;
@@ -216,6 +216,6 @@ footer h4 {
   line-height: 0.65;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  font-family: "Bebas Neue";
+  font-family: "Montserrat";
   font-weight: bold;
 }
