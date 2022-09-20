@@ -25,19 +25,18 @@ function formatCountdownText(days, hours, minutes, seconds) {
   }
 
   let deadline = new Date ("September 9, 2023 13:00:00");
-
-  let countdown = document.getElementbyId("Countdown");
+  let countdown = document.getElementById("countdown");
 
   countdown.innerHTML = " ";
 
   function setCountdown () {
-    let now = Date();
+    let now = new Date();
     let timeLeft = deadline.getTime() - now.getTime();
 
-    let daysLeft = convertToDaysLeft(timeLeft)
-    let hoursLeft = convertToHoursLeft(timeLeft)
-    let minutesLeft = convertToMinutesLeft(timeLeft)
-    let secondsLeft = convertToSecondsLeft(timeLeft)
+    let daysLeft = convertToDaysLeft(timeLeft);
+    let hoursLeft = convertToHoursLeft(timeLeft);
+    let minutesLeft = convertToMinutesLeft(timeLeft);
+    let secondsLeft = convertToSecondsLeft(timeLeft);
 
     countdown.innerHTML = formatCountdownText(daysLeft, hoursLeft, minutesLeft, secondsLeft)
   }
