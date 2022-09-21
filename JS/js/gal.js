@@ -1,4 +1,4 @@
-let modal = document.getElementById("myModal");
+let modal = document.getElementById("mymodal");
 let imgs = document.querySelectorAll(".imgs");
 
 let imgBox = document.getElementById("modalImg");
