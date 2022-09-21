@@ -13,9 +13,7 @@ function getResulttext(computerPick, playerPick){
     if (computerPick == playerPick){
         return TIE;
     }
-}
-
-if (computerPick == PAPER && playerPick == ROCK) {
+    if (computerPick == PAPER && playerPick == ROCK) {
     return LOSE;
 } else if (computerPick == PAPER && playerPick == SCISSORS){
     return WIN;
@@ -31,4 +29,5 @@ if (computerPick == SCISSORS && playerPick == PAPER){
     return LOSE;
 }else if (computerPick == SCISSORS && playerPick == ROCK){
     return WIN;
+}
 }
