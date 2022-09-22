@@ -63,3 +63,30 @@ body {
 #scissorsRight.selected {
   display: block;
 }
+/*****************************************************************************
+  Button related CSS is found here
+*****************************************************************************/
+/* Add spacing, sizing, and color, along with turning on transitions */
+button {
+  background: linear-gradient(to bottom, skyblue, teal);
+  border: 0;
+  border-radius: 12px;
+  padding: 12px;
+  min-width: 150px;
+  color: white;
+  margin: 24px 12px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+/* Make the button grow when hovered over */
+button:hover {
+  transform: scale(1.1);
+}
+/* Flip the gradient when clicked on */
+button:active {
+  background: linear-gradient(to top, skyblue, teal);
+}
+/* Hide that obnoxious orange outline when clicked in Chrome */
+button:focus-visible {
+  outline: 0;
+}
