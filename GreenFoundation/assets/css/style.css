@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:black
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../../img/pexels-anna-shvets-5029923.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 650px;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+a{
+    transition: background-color 0.5s;
+}
+
+a:hover{
+    background-color: #569567;
+}
+
+.contents{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+.contents h1{
+    font-size: 50px;
+    margin-top: 80px;
+    text-shadow: 1px 1px 2px black;
+}
+.contents p{
+    margin: 20px auto;
+    text-shadow: 1px 1px 2px black;
+}
+button{
+    width: 200px;
+    padding: 15px ;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid #569567;
+    background: transparent;
+    transition: 0.5s;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+button:hover{
+    background-color: yellow;
+}
+
+.carousel-item{
+    width: 250px;
+}
+
+.container{
+    padding: 1em;
+    column-count: 2;
+}
+
+p{
+    color: white;
+}
+.pass{
+    font-size: 20px;
+}
+.subscribe {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+	background: transparent;
+	width: 945px;
+	height: 474px;
+
+	
+}
+.notice__copy{
+    color: white;
+}
+.subscribe__title {
+	font-weight: bold;
+	font-size: 26px;
+	margin-bottom: 18px;
+    color: white;
+    padding-left: 150px;
+}
+
+.subscribe__copy {
+	max-width: 450px;
+	text-align: center;
+	margin-bottom: 53px;
+	line-height: 1.5;
+    padding-left: 95px;
+}
+
+.form {
+	margin-bottom: 25px;
+}
+
+.form__email {
+	padding: 10px 55px;
+ 	border: 1px solid #CAD3DB;
+	width: 431px;
+	font-size: 18px;
+	color: #0F121F;
+}
+.notice {
+	width: 345px;
+}
